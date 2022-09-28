@@ -1,6 +1,6 @@
 sources:
-  plankton:
-      description: Sample images required to demonstrate the ResNet50 model trained in the Rapid Identification of Plankton using Machine Learning DSG undertaken by Cefas, The Alan Turing Institute and Plankton Analytics Ltd.
+  pollen:
+      description: Sample images required to demonstrate a pretrained image classification model to classify pollen grains by species, taken from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044, published under CC0: public domain license.
       origin:
       driver: intake_xarray.image.ImageSource
       args:
